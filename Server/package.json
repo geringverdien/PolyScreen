@@ -1,0 +1,33 @@
+{
+  "name": "video-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "dev:ts-node": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "dotenv": "^18.0.3",
+    "node-screenshots": "^0.2.8",
+    "sharp": "^0.34.5"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}

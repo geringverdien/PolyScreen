@@ -1,0 +1,10 @@
+Server/.env
+Server/node_modules/
+Server/dist/
+Server/*.log
+
+
+/.vscode/
+
+
+Place/.poly
