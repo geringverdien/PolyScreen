@@ -1,6 +1,8 @@
 # PolyScreen
 A decently fast screenshare within Polytoria :3
 
+![Screenshot](./thumbnail.png)
+
 # Requirements
 - node.js
 - [ngrok](https://ngrok.com) account, [authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) needed
