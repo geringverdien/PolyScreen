@@ -51,6 +51,7 @@ async function getFrame() {
   const img = monitor.captureImageSync();
   const buffer = await sharp(img.toRawSync(), { raw: { width: img.width, height: img.height, channels: 4 } })
     .resize(SCREEN_RESOLUTION.x, SCREEN_RESOLUTION.y)
+    .flop()
     .removeAlpha()
     .toBuffer();
 
