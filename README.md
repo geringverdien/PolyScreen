@@ -16,7 +16,8 @@ cd ./Server
 npm install
 
 touch .env
-echo "AUTHTOKEN" > .env
+# replace XYZ with your token
+echo 'NGROK_AUTHTOKEN=\"XYZ\"' > .env
 
 # runs in monitor mode
 npm run dev
